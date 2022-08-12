@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -464,10 +464,23 @@ body {
         top: 45px;
     }
 
+    .menu__link:hover {
+        background-color: #fff;
+        color: #131313;
+    }
+
+    .bike__link:hover {
+        background-color: #131313;
+    }
+
+    .form__btn:hover {
+        background-color: #131313;
+    }
+
     html,
     body {
-       width: 100%;
-       overflow-x: hidden;
+        width: 100%;
+        overflow-x: hidden;
     }
 }
 
@@ -561,9 +574,9 @@ body {
 
     .form__bike {
         width: 430px;
-        top: auto;
+        top: 275px;
         bottom: 855px;
-        left: 0;
+        left: 7px;
         right: auto;
     }
 
@@ -648,7 +661,7 @@ body {
 @media(max-width: 580px) {
     .form__bike-price {
         right: auto;
-        top: 50px;
+        top: 25px;
         left: 0;
         transform: translateX(0%);
         display: inline-block;
@@ -660,7 +673,7 @@ body {
     }
 
     .form__bike-price span {
-        background-color: #131313;
+        background-color: #ff4040;
         color: #fff;
         display: inline-block;
         padding: 3px;
@@ -677,11 +690,11 @@ body {
         text-align: center;
     }
 
-    .footer__social{
+    .footer__social {
         padding: 15px 0;
     }
 
-    .footer__contacts{
+    .footer__contacts {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -719,10 +732,6 @@ body {
         margin-bottom: 200px;
     }
 
-    .price__inner {
-        text-align: center;
-    }
-
     .form__text {
         max-width: 100%;
     }
@@ -733,6 +742,19 @@ body {
 
     .form__bike {
         right: 0;
+    }
+
+    .form__bike-price {
+        right: auto;
+        top: 25px;
+        left: 0;
+        transform: translateX(0%);
+        display: inline-block;
+        font-size: 11px;
+        border: none;
+        width: 100%;
+        height: auto;
+        border-radius: 0px;
     }
 }
 
